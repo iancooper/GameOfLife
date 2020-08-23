@@ -41,34 +41,29 @@ Each cell in the grid is represented by a "." character if dead and a '*" charac
 For example
 
 
+```
 Seed:
-
 4 8 
+........
+....*...
+...**...
+........
 
-| | | | | | | | |
-|-|-|-|-|-|-|-|-| 
-|.|.|.|.|.|.|.|.|
-|.|.|.|.|*|.|.|.|
-|.|.|.|*|*|.|.|.|
-|.|.|.|.|.|.|.|.|
-
-(Ignore the header row, an artefact of gitub flavoured markdown table syntax)
+```
 
 
 ### The Tick
 
 The results of a *tick* are a new grid of cells, in the same format as the *seed* but with a generation indicator.
 
+```
 Generation 1:
-
 4 8
-
-| | | | | | | | |
-|-|-|-|-|-|-|-|-| 
-|.|.|.|.|.|.|.|.|
-|.|.|.|*|*|.|.|.|
-|.|.|.|*|*|.|.|.|
-|.|.|.|.|.|.|.|.|
+........
+...**...
+...**...
+........
+```
 
 
 
