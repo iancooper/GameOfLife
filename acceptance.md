@@ -100,26 +100,3 @@ Generation 1:
 ***
 
 ```
-
-
-```
-Given that I have a seed:
-
-Seed:
-4 8
-........
-....*...
-...**...
-........
-
-When I tick
-The first generation should be:
-
-Generation 1:
-4 8
-........
-...**...
-...**...
-........
-
-```
