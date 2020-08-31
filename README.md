@@ -16,7 +16,7 @@ In 1970, John Horton Conway created a zero-player game of cellular automation ca
 
 ### The Rules of the Game of Life
 
-The boad is a two-dimensional grid of cells. Each cell has a state of either *alive* or *dead*.
+The board is a two-dimensional grid of cells. Each cell has a state of either *alive* or *dead*.
 
 With each iteration, we apply the following rules to determine the state of any cell.
 
